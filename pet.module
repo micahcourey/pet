@@ -14,5 +14,8 @@ function pet_menu()
 
 function pet_display() {
     $path = drupal_get_path('module', 'pet') . '/img/my_cat.JPG';
-    return '<img src="' . $path . '" alt="a photo of my cat" height=612 width=816>';
+    return '<img src="' . $path . '" alt="a photo of my cat" height=612 width=816>
+            <p>This is my cat Dre he is a tabby cat.</p>
+            <a href="https://en.wikipedia.org/wiki/Tabby_cat">Here is some info on tabby cats</a>
+    ';
 }
