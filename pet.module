@@ -1,0 +1,18 @@
+<?php
+
+function pet_menu()
+{
+    $items = array();
+    $items['pet'] = array(
+            'title' => 'My Pet',
+            'page callback' => 'pet_display',
+            'access callback' => TRUE,
+            'type' => MENU_NORMAL_ITEM,
+        );
+    return $items;
+}
+
+function pet_display() {
+    $path = drupal_get_path('module', 'pet') . '/img/my_cat.JPG';
+    return '<img src="' . $path . '" alt="a photo of my cat" height=612 width=816>';
+}

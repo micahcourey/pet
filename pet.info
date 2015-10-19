@@ -1,0 +1,5 @@
+name = Pet
+description = Create a menu item leading to a page about your favorite pet.
+package = My First Modules
+core = 7.x
+files[] = pet.module
