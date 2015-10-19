@@ -15,7 +15,7 @@ $ git clone https://github.com/micahcourey/pet.git
 ```console
 $ mv pet /sites/all/modules
 ```
-* Enable the greeting module in the Drupal Modules menu.
+* Enable the pet module in the Drupal Modules menu.
 
 Technologies Used
 ----------
